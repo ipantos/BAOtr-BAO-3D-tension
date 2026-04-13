@@ -14,8 +14,25 @@ This repository contains the Python code to reproduce all figures and numerical 
 | File | Description |
 |------|-------------|
 | `cosmo.py` | Core cosmology library: flat CPL cosmology with radiation, CMB θ* constraint, DESI-optimized parameter determination, Method A (direct comparison) and Method B (α-interpolation). Contains all observational data (DESI DR2, SDSS-IV, BAOtr). |
-| `generate_tables.py` | Produces Tables 1, 5–8 of the paper: overcorrection diagnostics, CMB-consistent parameters, per-point tensions, χ² summary, and sensitivity tests. |
-| `generate_figures.py` | Produces Figures 1–5 of the paper: tension bar charts, χ² trade-off plot, χ² surfaces in the (w₀, wₐ) plane, DESI vs SDSS comparison, and residual plots. |
+| `generate_tables.py` | Produces all numerical tables of the paper. |
+| `generate_figures.py` | Produces all figures of the paper. |
+
+## Reproducibility
+
+| Command | Output | Paper element |
+|---------|--------|---------------|
+| `python generate_tables.py` | stdout | Table 1: Overcorrection from rescaling |
+| | | Table 5: CMB-consistent parameters |
+| | | Table 6: Per-point baseline tension |
+| | | Table 7: χ² summary for all models |
+| | | Table 8: Sensitivity to extrapolation and BGS anchor |
+| `python generate_figures.py` | `figures/fig1_tension_bars.pdf` | Figure 1: Per-point tension bars |
+| | `figures/fig2_tradeoff.pdf` | Figure 2: χ²_DESI vs χ²_BAOtr trade-off |
+| | `figures/fig3_chi2_surfaces.pdf` | Figure 3: χ² surfaces in (w₀, wₐ) plane |
+| | `figures/fig4_sdss_comparison.pdf` | Figure 4: DESI vs SDSS comparison |
+| | `figures/fig5_methods_comparison.pdf` | Figure 5: Method A vs Method B residuals |
+
+Tables 2–4 (DESI DR2 data, SDSS-IV data, BAOtr compilation) are observational data tables reproduced directly from the cited references.
 
 ## Requirements
 
