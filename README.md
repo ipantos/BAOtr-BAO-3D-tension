@@ -55,7 +55,7 @@ python generate_figures.py
 
 - **DESI DR2 BAO**: Abdul-Karim et al. (2025), [arXiv:2503.14738](https://arxiv.org/abs/2503.14738)
 - **SDSS-IV consensus**: Alam et al. (2021), [arXiv:2007.08991](https://arxiv.org/abs/2007.08991)
-- **BAOtr compilation**: Nunes et al. (2020), [arXiv:2008.13075](https://arxiv.org/abs/2008.13075)
+- **BAOtr compilation**: Nunes et al. (2020), [arXiv:2008.13075](https://arxiv.org/abs/2008.13075); individual measurements from Carvalho et al. (2016, 2020), de Carvalho et al. (2018, 2021), Alcaniz et al. (2017)
 - **CPL posteriors**: Xu et al. (2026)
 - **Planck 2018**: Aghanim et al. (2020), [arXiv:1807.06209](https://arxiv.org/abs/1807.06209)
 
